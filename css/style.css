@@ -1,0 +1,150 @@
+body {
+    background: #181818;
+    box-sizing: border-box;
+}
+
+/* Start header CSS */
+.header {
+    width: 80%;
+    margin: auto;
+}
+
+.header button {
+    background: #ff8601;
+    color: #ffffef;
+    border: none;
+    font-weight: bold;
+}
+
+.header input {
+    padding: 3px 0;
+}
+
+.header_social {
+    color: white;
+    font-size: 25px;
+}
+/* End header CSS */
+
+/* Start nav CSS */
+.nav {
+    width: 80%;
+    margin: auto;
+    background: #c9c9c9;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav li {
+    border-right: 0.5px solid #c4c1be;
+}
+/* End nav CSS */
+
+/* Start content CSS */
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.content_slider-img img {
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+.content_slider-detail {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.content_slider-detail p {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.content_slider-detail span {
+    background: #ff8600;
+    font-size: 16px;
+    color: white;
+}
+
+.content_slider-item {
+    height: 120px;
+    border-top: 1px solid #363535;
+}
+
+.content_slider-item p {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.content_slider-item.active {
+    background: #000000;
+    color: #f06000;
+    border-left: 6px solid #f06000;
+}
+
+.content_advertisement {
+    background: linear-gradient(45deg, rgba(255,134,1,1) 0%, rgba(255,134,1,1) 49.5%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content_banner img {
+    height: 305px;
+}
+
+.content_game-title {
+    background: linear-gradient(45deg, rgba(255,134,1,1) 0%, rgba(255,134,1,1) 49.5%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content_game {
+    position: relative;
+}
+
+.content_game img {
+    height: 250px;
+}
+
+.content_game-detail {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+.content_game-detail p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content_game-detail i, .content_game-detail span {
+    color: #8b8686;
+}
+
+.content_game_more img {
+    height: 100px;
+}
+
+.content_game_more p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content_game_more i, .content_game_more span {
+    color: #8b8686;
+}
+
+.content_game_more-item {
+    border-bottom: 1px solid #363535;
+}
+/* End content CSS */
